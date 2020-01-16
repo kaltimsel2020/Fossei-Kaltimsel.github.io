@@ -53,16 +53,16 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 952px){
+@media (max-width: 768px){
   label.logo{
-    font-size: 30px;
-    padding-left: 50px;
+    font-size: 24px;
+    padding-left:15px;
   }
   nav ul li a{
     font-size: 16px;
   }
 }
-@media (max-width: 858px){
+@media (max-width: 768px){
   .checkbtn{
     display: block;
   }
@@ -95,7 +95,7 @@ a.active,a:hover{
 section{
   background: url("logo kaltimsel.png") no-repeat;
   background-size: cover;
-  margin: 0;
+  background-position: center;
 }
 
 
